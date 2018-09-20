@@ -1,6 +1,5 @@
 async function test (req, res, next) {
-  console.log('req')
-  res.json({data: 'testing the new project'});
+  res.send(`<h3>Testing the new project</h3>`);
 }
 
 module.exports = test;
